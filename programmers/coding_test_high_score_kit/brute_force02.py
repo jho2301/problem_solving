@@ -8,11 +8,13 @@ def is_prime(number):
             return False
     return True
 
+
 def atoi(tup):
     result = ""
     for i in tup:
         result += i
     return result
+
 
 def solution(numbers):
     new_numbers = []
